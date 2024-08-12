@@ -44,6 +44,9 @@ void infoProduto(Produto prod){
 
 void menu(){
 
+	system("cls"); //Windows
+	//system("clear") //Linux
+
 	printf("=========================================\n");
 	printf("================ Bem-vindo(a) ===========\n");
 	printf("================  Geek Shop   ===========\n");
