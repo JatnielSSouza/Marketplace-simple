@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include <unistd.h> // No Linux/Mac
-//#include <windows.h>
+#include <unistd.h> // unix, linux ou mac
+#include <windows.h> // windows
 
 typedef struct {
 	int codigo;
